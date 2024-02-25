@@ -1,5 +1,5 @@
 # book-algo
-Binance wss class and discord bot
+Binance - discord alerting bot, with simple discord CLI. The bot builds `order-book` for a `base-quote pair` and tracks it trough binance WS. Alerts if there are any limit orders bigger than 7 day average trading volume for the pair.
 
 
 # How to run:
