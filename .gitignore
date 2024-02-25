@@ -1,0 +1,7 @@
+.env
+/venv
+/cython_mods/*.c
+/build
+*__pycache__
+/.vscode
+*.so

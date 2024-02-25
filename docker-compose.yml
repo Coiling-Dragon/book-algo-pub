@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  order_book:
+    build: ./
+    image: gcr.io/gcr-project-name/order_book:0.0.1
+    command: ["python", "main.py"]
+    volumes:
+      - ./:/app
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+    container_name: order_book
+    restart: always
